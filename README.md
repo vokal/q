@@ -9,7 +9,8 @@ Queueu = q.New(buff)
 Returns a new q.Queue.
 
 ```Go
-// n is the number of asnycronous workers which will pop jobs off the queue and process them
+// n is the number of asnycronous workers which will
+// pop jobs off the queue and process them
 Queue.Start(n)
 ```
 Initializes the workers, now the Queue is ready to start processing jobs.
