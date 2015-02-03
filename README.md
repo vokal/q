@@ -20,7 +20,7 @@ Initializes the workers, now the Queue is ready to start processing jobs.
 Queue.Push(j)
 ```
 
-pushes Jobs onto the queue.  A Job is anything thing that implements `Run()` which is responsible 
+Pushes jobs onto the queue.  A Job is anything thing that implements `Run()` which is responsible 
 for Processing the job.
 
 
