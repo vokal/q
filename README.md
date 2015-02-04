@@ -4,7 +4,7 @@ q
 `q` is a queue used to concurrently process jobs.
 ```Go
 // buffer size for the queue to hold jobs on. 
-Queueu = q.New(buff)
+Queue = q.New(buff)
 ```
 Returns a new q.Queue.
 
