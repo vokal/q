@@ -1,7 +1,7 @@
 q
 ==========
 
-`q` is a queue used to asyncronously process jobs.
+`q` is a queue used to concurrently process jobs.
 ```Go
 // buffer size for the queue to hold jobs on. 
 Queueu = q.New(buff)
@@ -9,8 +9,7 @@ Queueu = q.New(buff)
 Returns a new q.Queue.
 
 ```Go
-// n is the number of asnycronous workers which will
-// pop jobs off the queue and process them
+// n is the number of workers which will
 Queue.Start(n)
 ```
 Initializes the workers, now the Queue is ready to start processing jobs.
