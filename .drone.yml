@@ -7,8 +7,7 @@ script:
     - go get
     - go get -t
     - go build
-    - go test -gocheck.v
-    - go test -gocheck.v -gocheck.b -coverprofile=coverage.txt -covermode=count
+    - go test -coverprofile=coverage.txt -covermode=count
     - sudo pip install codecov
     - codecov --token=$$codecovToken
 notify:
